@@ -1,4 +1,4 @@
-import { Award } from "lucide-react";
+import { Award, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer, staggerItem } from "@/components/AnimatedSection";
 
@@ -9,18 +9,35 @@ const Certifications = () => {
       issuer: "Cipher Schools",
       description: "Comprehensive training in modern full-stack development technologies and best practices.",
       year: "2024",
+      link: null,
     },
     {
       title: "Git & GitHub",
       issuer: "Cipher Schools",
       description: "Version control mastery with Git and collaborative development using GitHub.",
       year: "2024",
+      link: null,
     },
     {
       title: "Privacy and Security in Online Social Media",
       issuer: "NPTEL",
       description: "Understanding security principles and privacy considerations in social media platforms.",
       year: "2024",
+      link: null,
+    },
+    {
+      title: "Build Generative AI Apps and Solutions with No-Code Tools",
+      issuer: "Udemy",
+      description: "Issued to Vaibhav Chaudhary. Completed August 31, 2025.",
+      year: "2025",
+      link: "https://ude.my/UC-c5248cdd-a3dc-4d74-9896-43ae1f903813",
+    },
+    {
+      title: "Master Generative AI & Generative AI Tools (ChatGPT & More)",
+      issuer: "Udemy • Instructor: Saad A",
+      description: "15 total hours of comprehensive generative AI training. Completed September 8, 2025.",
+      year: "2025",
+      link: "https://ude.my/UC-c5248cdd-a3dc-4d74-9896-43ae1f903813",
     },
   ];
 
@@ -76,9 +93,20 @@ const Certifications = () => {
                 <p className="text-primary/80 text-sm font-medium mb-3">
                   {cert.issuer}
                 </p>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed mb-3">
                   {cert.description}
                 </p>
+                {cert.link && (
+                  <a
+                    href={cert.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                  >
+                    <ExternalLink className="h-3 w-3" />
+                    View Credential
+                  </a>
+                )}
               </motion.div>
             ))}
           </motion.div>

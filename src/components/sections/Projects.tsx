@@ -24,6 +24,24 @@ const Projects = () => {
       live: null,
       featured: true,
     },
+    {
+      title: "USEPOPCORN – Movie Watchlist Application",
+      description:
+        "React-based movie discovery and watchlist app enabling real-time search, detailed views, and personalized watchlist management. Features user rating, watch-time calculation, and rating analytics with optimized performance using React hooks and custom hooks.",
+      tech: ["React.js", "REST APIs", "Custom Hooks"],
+      github: "https://github.com/Vaibhavchaudhary991",
+      live: null,
+      featured: true,
+    },
+    {
+      title: "ChaloSeekhein – Rural Education Platform",
+      description:
+        "Complete rural education platform with structured lessons, smart attendance, quizzes, teacher tools, and community-based learning. Responsive frontend with real-time data handling via AJAX.",
+      tech: ["HTML", "Tailwind CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
+      github: "https://github.com/Vaibhavchaudhary991",
+      live: null,
+      featured: true,
+    },
   ];
 
   return (

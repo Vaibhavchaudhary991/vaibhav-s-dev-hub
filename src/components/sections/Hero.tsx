@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, FileText } from "lucide-react";
 import { motion, Variants } from "framer-motion";
 
 const easeOut: [number, number, number, number] = [0.25, 0.4, 0.25, 1];
@@ -117,6 +117,12 @@ const Hero = () => {
             </Button>
             <Button variant="outline" size="lg" asChild>
               <a href="#contact">Contact Me</a>
+            </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                <FileText className="mr-2 h-4 w-4" />
+                Check CV
+              </a>
             </Button>
           </motion.div>
 
