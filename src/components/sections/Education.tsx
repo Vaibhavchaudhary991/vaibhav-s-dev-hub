@@ -1,4 +1,4 @@
-import { GraduationCap, Calendar, MapPin } from "lucide-react";
+import { GraduationCap, MapPin } from "lucide-react";
 import { motion, Variants } from "framer-motion";
 import { fadeInUp } from "@/components/AnimatedSection";
 
@@ -10,7 +10,6 @@ const Education = () => {
       degree: "B.Tech in Computer Science Engineering",
       institution: "Lovely Professional University",
       location: "Punjab, India",
-      duration: "2022 - 2026",
       grade: "CGPA: 7.82",
       current: true,
     },
@@ -18,7 +17,6 @@ const Education = () => {
       degree: "Intermediate (12th)",
       institution: "M.D International School",
       location: "India",
-      duration: "2020 - 2022",
       grade: "Completed",
       current: false,
     },
@@ -26,7 +24,6 @@ const Education = () => {
       degree: "Matriculation (10th)",
       institution: "M.D International School",
       location: "India",
-      duration: "2018 - 2020",
       grade: "Completed",
       current: false,
     },
@@ -131,10 +128,6 @@ const Education = () => {
                     </div>
                     <p className="text-primary/80 font-medium mb-2">{edu.institution}</p>
                     <div className={`flex flex-wrap gap-4 text-sm text-muted-foreground ${index % 2 === 0 ? "md:justify-end" : ""}`}>
-                      <span className="flex items-center gap-1">
-                        <Calendar className="h-4 w-4" />
-                        {edu.duration}
-                      </span>
                       <span className="flex items-center gap-1">
                         <MapPin className="h-4 w-4" />
                         {edu.location}
