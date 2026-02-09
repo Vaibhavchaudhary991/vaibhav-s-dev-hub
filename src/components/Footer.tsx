@@ -10,7 +10,7 @@ const Footer = () => {
     },
     {
       icon: Linkedin,
-      href: "www.linkedin.com/in/vaibhav-chaudhary-195766284",
+      href: "https://www.linkedin.com/in/vaibhav-chaudhary-195766284/",
       label: "LinkedIn",
     },
     {
