@@ -7,11 +7,20 @@ import { fadeInUp, staggerContainer, staggerItem } from "@/components/AnimatedSe
 const Projects = () => {
   const projects = [
     {
+      title: "Portfolio Website",
+      description:
+        "Designed and developed a responsive personal portfolio using React.js, Tailwind CSS, and JavaScript to showcase projects, skills, and certifications. Implemented dynamic sections for projects, certificates, resume, and contact, ensuring smooth navigation and optimized performance across devices. Integrated GitHub, LinkedIn, and email links, and deployed with SEO-friendly structure and modern UI/UX best practices.",
+      tech: ["React.js", "Tailwind CSS", "JavaScript", "Framer Motion"],
+      github: "https://github.com/Vaibhavchaudhary991/vaibhav-s-dev-hub.git",
+      live: null,
+      featured: true,
+    },
+    {
       title: "Somana",
       description:
         "AI-powered platform with storytelling, blogs, movie & music recommendations, authentication, and user-generated content. A comprehensive entertainment and content creation hub.",
       tech: ["Next.js", "React", "MongoDB", "Supabase", "REST APIs"],
-      github: "https://github.com/Vaibhavchaudhary991",
+      github: "https://github.com/Vaibhavchaudhary991/Somana-v8.git",
       live: null,
       featured: true,
     },
@@ -20,7 +29,7 @@ const Projects = () => {
       description:
         "Secure reporting system with image upload, location tracking, verification workflow, and real-time status updates. Built to help combat child labor through technology.",
       tech: ["Next.js", "React", "Express.js", "MongoDB", "Tailwind CSS"],
-      github: "https://github.com/Vaibhavchaudhary991",
+      github: "https://github.com/Vaibhavchaudhary991/UDAAN-PROJECT.git",
       live: null,
       featured: true,
     },
@@ -29,7 +38,7 @@ const Projects = () => {
       description:
         "React-based movie discovery and watchlist app enabling real-time search, detailed views, and personalized watchlist management. Features user rating, watch-time calculation, and rating analytics with optimized performance using React hooks and custom hooks.",
       tech: ["React.js", "REST APIs", "Custom Hooks"],
-      github: "https://github.com/Vaibhavchaudhary991",
+      github: "https://github.com/Vaibhavchaudhary991/USEPOPCORN.git",
       live: null,
       featured: true,
     },
@@ -38,7 +47,7 @@ const Projects = () => {
       description:
         "Complete rural education platform with structured lessons, smart attendance, quizzes, teacher tools, and community-based learning. Responsive frontend with real-time data handling via AJAX.",
       tech: ["HTML", "Tailwind CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
-      github: "https://github.com/Vaibhavchaudhary991",
+      github: "https://github.com/Vaibhavchaudhary991/ChaloSeekhein.git",
       live: null,
       featured: true,
     },
