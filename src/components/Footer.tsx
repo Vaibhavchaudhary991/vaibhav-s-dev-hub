@@ -41,8 +41,7 @@ const Footer = () => {
               transition={{ delay: 0.1 }}
               className="text-sm text-muted-foreground flex items-center gap-1"
             >
-              © {currentYear} Vaibhav Chaudhary. Made with
-              <Heart className="h-3 w-3 text-primary fill-primary" />
+             
             </motion.p>
 
             {/* Social Links */}
