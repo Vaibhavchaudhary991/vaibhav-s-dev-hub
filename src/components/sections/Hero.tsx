@@ -64,24 +64,26 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-16">
           {/* Profile Image */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.8, x: -50 }}
-            animate={{ opacity: 1, scale: 1, x: 0 }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: easeOut }}
             className="relative flex-shrink-0"
           >
-            <div className="relative">
-              {/* Glow effect behind image */}
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/40 to-accent/40 rounded-full blur-2xl scale-110" />
-              {/* Image container */}
-              <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl shadow-primary/20">
+            <div className="relative group">
+              {/* Subtle gradient background */}
+              <div className="absolute -inset-1 bg-gradient-to-b from-primary/20 via-primary/10 to-transparent rounded-2xl blur-xl opacity-60" />
+              {/* Main image container - professional rounded rectangle */}
+              <div className="relative w-56 h-72 md:w-64 md:h-80 lg:w-72 lg:h-96 rounded-2xl overflow-hidden border border-border/40 bg-card/30 backdrop-blur-sm shadow-xl">
                 <img 
                   src={profilePhoto} 
                   alt="Vaibhav Chaudhary" 
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-top grayscale-[10%] contrast-[1.02]"
                 />
+                {/* Subtle overlay for professional look */}
+                <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
               </div>
-              {/* Decorative ring */}
-              <div className="absolute inset-0 rounded-full border-2 border-primary/20 scale-[1.15] animate-pulse-slow" />
+              {/* Elegant accent line */}
+              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-transparent via-primary/60 to-transparent rounded-full" />
             </div>
           </motion.div>
 
