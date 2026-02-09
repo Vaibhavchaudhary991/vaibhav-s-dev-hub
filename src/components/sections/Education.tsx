@@ -16,14 +16,14 @@ const Education = () => {
     {
       degree: "Intermediate (12th)",
       institution: "M.D International School",
-      location: "India",
+      location: "Uttar Pradesh,India",
       grade: "Completed",
       current: false,
     },
     {
       degree: "Matriculation (10th)",
       institution: "M.D International School",
-      location: "India",
+      location: "Uttar Pradesh,India",
       grade: "Completed",
       current: false,
     },
