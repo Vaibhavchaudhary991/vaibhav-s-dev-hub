@@ -56,7 +56,7 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "vaibhav-chaudhary",
-      href: "https://linkedin.com/in/vaibhav-chaudhary",
+      href: "www.linkedin.com/in/vaibhav-chaudhary-195766284",
     },
     {
       icon: MapPin,
