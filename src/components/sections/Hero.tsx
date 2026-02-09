@@ -156,7 +156,7 @@ const Hero = () => {
             <div className="flex justify-center lg:justify-start gap-4">
               {[
                 { href: "https://github.com/Vaibhavchaudhary991", icon: Github, label: "GitHub" },
-                { href: "www.linkedin.com/in/vaibhav-chaudhary-195766284", icon: Linkedin, label: "LinkedIn" },
+                { href: "https://www.linkedin.com/in/vaibhav-chaudhary-195766284/", icon: Linkedin, label: "LinkedIn" },
                 { href: "mailto:vaibhavchaudhary9912@gmail.com", icon: Mail, label: "Email" },
               ].map((social, i) => (
                 <motion.a
