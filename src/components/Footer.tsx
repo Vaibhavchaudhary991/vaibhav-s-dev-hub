@@ -5,12 +5,12 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "www.linkedin.com/in/vaibhav-chaudhary-195766284",
+      href: "https://github.com/Vaibhavchaudhary991",
       label: "GitHub",
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/vaibhav-chaudhary",
+      href: "www.linkedin.com/in/vaibhav-chaudhary-195766284",
       label: "LinkedIn",
     },
     {
