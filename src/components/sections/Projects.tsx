@@ -7,15 +7,6 @@ import { fadeInUp, staggerContainer, staggerItem } from "@/components/AnimatedSe
 const Projects = () => {
   const projects = [
     {
-      title: "Portfolio Website",
-      description:
-        "Designed and developed a responsive personal portfolio using React.js, Tailwind CSS, and JavaScript to showcase projects, skills, and certifications. Implemented dynamic sections for projects, certificates, resume, and contact, ensuring smooth navigation and optimized performance across devices. Integrated GitHub, LinkedIn, and email links, and deployed with SEO-friendly structure and modern UI/UX best practices.",
-      tech: ["React.js", "Tailwind CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/Vaibhavchaudhary991/vaibhav-s-dev-hub.git",
-      live: null,
-      featured: true,
-    },
-    {
       title: "Somana",
       description:
         "AI-powered platform with storytelling, blogs, movie & music recommendations, authentication, and user-generated content. A comprehensive entertainment and content creation hub.",
@@ -48,6 +39,15 @@ const Projects = () => {
         "Complete rural education platform with structured lessons, smart attendance, quizzes, teacher tools, and community-based learning. Responsive frontend with real-time data handling via AJAX.",
       tech: ["HTML", "Tailwind CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
       github: "https://github.com/Vaibhavchaudhary991/ChaloSeekhein.git",
+      live: null,
+      featured: true,
+    },
+    {
+      title: "Portfolio Website",
+      description:
+        "Designed and developed a responsive personal portfolio using React.js, Tailwind CSS, and JavaScript to showcase projects, skills, and certifications. Implemented dynamic sections for projects, certificates, resume, and contact, ensuring smooth navigation and optimized performance across devices. Integrated GitHub, LinkedIn, and email links, and deployed with SEO-friendly structure and modern UI/UX best practices.",
+      tech: ["React.js", "Tailwind CSS", "JavaScript", "Framer Motion"],
+      github: "https://github.com/Vaibhavchaudhary991/vaibhav-s-dev-hub.git",
       live: null,
       featured: true,
     },
