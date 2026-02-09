@@ -70,20 +70,18 @@ const Hero = () => {
             className="relative flex-shrink-0"
           >
             <div className="relative group">
-              {/* Subtle gradient background */}
-              <div className="absolute -inset-1 bg-gradient-to-b from-primary/20 via-primary/10 to-transparent rounded-2xl blur-xl opacity-60" />
-              {/* Main image container - professional rounded rectangle */}
-              <div className="relative w-56 h-72 md:w-64 md:h-80 lg:w-72 lg:h-96 rounded-2xl overflow-hidden border border-border/40 bg-card/30 backdrop-blur-sm shadow-xl">
+              {/* Glow effect matching teal/blue theme */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/20 rounded-full blur-2xl scale-110 opacity-70" />
+              {/* Main circular image container */}
+              <div className="relative w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-2 border-primary/40 shadow-lg shadow-primary/20 ring-4 ring-primary/10 ring-offset-2 ring-offset-background">
                 <img 
                   src={profilePhoto} 
                   alt="Vaibhav Chaudhary" 
-                  className="w-full h-full object-cover object-top grayscale-[10%] contrast-[1.02]"
+                  className="w-full h-full object-cover object-top"
                 />
-                {/* Subtle overlay for professional look */}
-                <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
               </div>
-              {/* Elegant accent line */}
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-transparent via-primary/60 to-transparent rounded-full" />
+              {/* Decorative outer ring */}
+              <div className="absolute inset-0 rounded-full border border-primary/20 scale-[1.12] pointer-events-none" />
             </div>
           </motion.div>
 
