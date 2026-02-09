@@ -25,10 +25,10 @@ const Achievements = () => {
   ];
 
   const stats = [
-    { value: "300+", label: "Total Problems" },
+    { value: "400+", label: "Total Problems" },
     { value: "100+", label: "Day Streak" },
     { value: "5⭐", label: "HackerRank" },
-    { value: "2+", label: "Years Coding" },
+    { value: "3+", label: "Years Coding" },
   ];
 
   return (
